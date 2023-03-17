@@ -18,7 +18,7 @@ public abstract class BasePage {
 	public void navigateTo(String categoryName, String subCategogyName, String productType) throws InterruptedException {
 		Thread.sleep(4000);
 		
-		WebElement category = driver.findElement(By.xpath("//nav[@class='navigation']//ul//span[text()='"+categoryName+"']"));
+		WebElement category = driver.findElement(By.xpath("//nav[@class='navigation']//ul//li//a[text()='"+categoryName+"']"));
 		new Actions(driver).moveToElement(category);
 		
 		Thread.sleep(1000);
