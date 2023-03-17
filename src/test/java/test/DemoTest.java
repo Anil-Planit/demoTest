@@ -16,9 +16,9 @@ public class DemoTest extends BaseTest
         HomePage homepage = new HomePage(driver);
         homepage.navigateTo("Women","Tops","Tees");
         
-        String product1= "Gwyn Endurance Tee";
+        String product= "Gwyn Endurance Tee";
         
-        // 1. addToCart(product1,"S","Yellow");
+        // 1. addToCart(product,"S","Yellow");
 		
 		// 2. Verify the message "You added Gwyn Endurance Tee to your shopping cart.”
 
