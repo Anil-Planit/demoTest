@@ -16,18 +16,10 @@ public class DemoTest extends BaseTest
         HomePage homepage = new HomePage(driver);
         homepage.navigateTo("Women","Tops","Tees");
         
-        String product= "Gwyn Endurance Tee";
+        // 1. Select any product
         
-        // 1. addToCart(product,"S","Yellow");
+        // 2. Select the size, color and click Add to cart
 		
-		// 2. Verify the message "You added Gwyn Endurance Tee to your shopping cart.”
-
-		// 3. Click on the "shopping cart" link from above message
-
-		// 4. Click proceed to Checkout
-
-		// 5. Click next button from the bottom of the page
-
-		// 6. Verify the warning message "The shipping method is missing. Select the shipping method and try again."
-    }
+		// 3. Verify the message "You added <ProdcutName> to your shopping cart.”
+  }
 }
